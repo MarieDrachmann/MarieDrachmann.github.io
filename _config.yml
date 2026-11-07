@@ -1,3 +1,12 @@
-theme: jekyll-theme-minimal
-title: Marie Drachmann's homepage
-description: My portfolio of projects and things i have done and made
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"   # fx "dark", "air", "contrast", "mint" osv.
+
+title: "Mit portfolie"
+description: "Kort beskrivelse af mig"
+locale: "da-DK"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
